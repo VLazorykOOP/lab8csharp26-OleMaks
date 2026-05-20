@@ -156,7 +156,7 @@ namespace lab8
 
             string f1 = Path.Combine(dir1, "t1.txt");
             string f2 = Path.Combine(dir1, "t2.txt");
-            File.WriteAllText(f1, "<Янукович Віктор Іванович, 2001> року народження, місце проживання <м. Суми>");
+            File.WriteAllText(f1, "<Шевченко Степан Іванович, 2001> року народження, місце проживання <м. Суми>");
             File.WriteAllText(f2, "<Комар Сергій Федорович, 2000 > року народження, місце проживання <м. Київ>");
 
             string f3 = Path.Combine(dir2, "t3.txt");
